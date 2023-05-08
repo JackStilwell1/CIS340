@@ -29,6 +29,7 @@ export default function App() {
 
   };
 
+  // add the sharing image dialog
   let openSharingDialogAsync = async () => {
         if ( !(await Sharing.isAvailableAsync())){
         alert('Sharing is not availble on my phone');
